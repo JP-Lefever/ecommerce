@@ -1,0 +1,8 @@
+:root{
+    --grey-bg : #EEEEEE
+}
+
+body {
+    background-color: var(--grey-bg);
+
+}
