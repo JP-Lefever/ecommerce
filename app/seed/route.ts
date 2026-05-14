@@ -124,7 +124,7 @@ export async function GET(){
             await roles();
             await basket();
             await users();
-            await adress();
+            await address();
             await orders();
             await categories();
             await articles();
@@ -134,6 +134,6 @@ export async function GET(){
 
         return Response.json({message : "DB mise à jour"})
     }catch(error){
-        return Response.json({error})
+        return Response.json({error : error})
     }
 }
